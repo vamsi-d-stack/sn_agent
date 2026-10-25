@@ -10,7 +10,7 @@ import os
 
 import streamlit as st
 
-from deploy_test_snagent.openai_sn_mcp import chat_connection, initial_messages, list_chat_tools
+from openai_sn_mcp import chat_connection, initial_messages, list_chat_tools
 
 
 async def advance(messages: list[dict], approved: bool | None = None) -> None:
